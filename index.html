@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ORGANISATION EN DRAG AND DROP</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="list">
+        <h1>A faire</h1>
+        <div class="draggingContainer">
+          <div class="card" draggable="true">
+            <div class="title">taches</div>
+            <div class="description">
+              voici mes taches
+            </div>
+          </div>
+
+          <div class="card" draggable="true">
+            <div class="title">tache 2</div>
+            <div class="description">
+            ajouter du quota a mon disque réseau
+            </div>
+          </div>
+
+          <div class="card" draggable="true">
+            <div class="title">tache 3</div>
+            <div class="description">
+              installer windows
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <h1>In Progress</h1>
+        <div class="draggingContainer">
+          <div class="card" draggable="true">
+            <div class="title">tache 5</div>
+            <div class="description">
+              faire le site internet
+            </div>
+          </div>
+          <div class="card" draggable="true">
+            <div class="title">tache 6</div>
+            <div class="description">
+              depanner le serveur de stockage
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <h1>In Review</h1>
+        <div class="draggingContainer">
+          <div class="card" draggable="true">
+            <div class="title">Tache 7</div>
+            <div class="description">
+              reviser les mathematiques
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <h1>Done</h1>
+        <div class="draggingContainer">
+          <div class="card" draggable="true">
+            <div class="title">tache 8</div>
+            <div class="description">
+             reviser l'anglais
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
